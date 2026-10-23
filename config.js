@@ -33,6 +33,6 @@ window.BONJOUR_JG_CONFIG = {
     service: "",
     room: "318",
     hours: "Tous les jours de 10h à 20h",
-    notes: "Pièce d'identité contrôlée à l'entrée, à pied comme en voiture.\nParking intérieur souvent saturé : mieux vaut se garer à l'extérieur.\nPas de plantes en pot ni d'animaux ; fleurs coupées selon le service.",
+    notes: "Pièce d'identité contrôlée à l'entrée, à pied comme en voiture.\nPas de plantes en pot ni d'animaux ; fleurs coupées selon le service.",
   },
 };
