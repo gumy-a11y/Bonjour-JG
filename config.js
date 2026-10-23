@@ -30,7 +30,7 @@ window.BONJOUR_JG_CONFIG = {
 
   // Nombre minimum d'heures SANS visite à préserver chaque jour (0 = pas de limite).
   // Calculé sur les créneaux ci-dessus : les créneaux bloqués comptent comme du repos.
-  minRestHoursPerDay: 4,
+  minRestHoursPerDay: 5,
 
   // Motifs proposés pour bloquer un créneau.
   blockReasons: ["Repos", "Soins / examens", "Visite médicale", "Kiné", "Autre"],
@@ -43,6 +43,6 @@ window.BONJOUR_JG_CONFIG = {
     service: "",
     room: "318",
     hours: "Tous les jours de 10h à 20h",
-    notes: "Pièce d'identité contrôlée à l'entrée, à pied comme en voiture.\nParking intérieur souvent saturé : mieux vaut se garer à l'extérieur.\nPas de plantes en pot ni d'animaux ; fleurs coupées selon le service.",
+    notes: "Pièce d'identité contrôlée à l'entrée, à pied comme en voiture.\nPas de plantes en pot ni d'animaux ; fleurs coupées selon le service.",
   },
 };
