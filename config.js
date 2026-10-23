@@ -13,10 +13,16 @@ window.BONJOUR_JG_CONFIG = {
   // Créneaux de visite proposés chaque jour (id unique, sans espace).
   // ⚠️ Ne changez pas l'"id" d'un créneau qui a déjà des inscriptions.
   slots: [
-    { id: "matin",       label: "Matin",              start: "10:00", end: "12:00" },
-    { id: "debut-aprem", label: "Début d'après-midi", start: "14:00", end: "16:00" },
-    { id: "fin-aprem",   label: "Fin d'après-midi",   start: "16:00", end: "18:00" },
-    { id: "soir",        label: "Soirée",             start: "18:00", end: "20:00" },
+    { id: "h10", label: "Matin",      start: "10:00", end: "11:00" },
+    { id: "h11", label: "Matin",      start: "11:00", end: "12:00" },
+    { id: "h12", label: "Midi",       start: "12:00", end: "13:00" },
+    { id: "h13", label: "Après-midi", start: "13:00", end: "14:00" },
+    { id: "h14", label: "Après-midi", start: "14:00", end: "15:00" },
+    { id: "h15", label: "Après-midi", start: "15:00", end: "16:00" },
+    { id: "h16", label: "Après-midi", start: "16:00", end: "17:00" },
+    { id: "h17", label: "Fin de journée", start: "17:00", end: "18:00" },
+    { id: "h18", label: "Soirée",     start: "18:00", end: "19:00" },
+    { id: "h19", label: "Soirée",     start: "19:00", end: "20:00" },
   ],
 
   // Nombre maximum de personnes par créneau (0 = illimité).
