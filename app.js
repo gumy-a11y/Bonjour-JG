@@ -219,7 +219,7 @@
     fill($("#patient"),
       el("span", { class: "patient-icon", "aria-hidden": "true", text: "🗓️" }),
       el("div", { class: "patient-main" },
-        el("span", { class: "logi-label", text: "Information du patient" }),
+        el("span", { class: "logi-label", text: "Jean-Gui News" }),
         date
           ? el("p", { class: "patient-date" }, "Sortie prévue le ", el("strong", { text: frDate(date) }), el("span", { class: "patient-when", text: when }))
           : el("p", { class: "patient-date muted", text: "Date de sortie pas encore connue" }),
