@@ -41,7 +41,7 @@ window.BONJOUR_JG_CONFIG = {
     hospital: "Hôpital d'Instruction des Armées Percy",
     address: "2 rue du Lieutenant Raoul Batany, 92140 Clamart",
     service: "",
-    room: "318",
+    room: "318, 3e étage, ascenseur Bleu",
     hours: "Tous les jours de 10h à 20h",
     notes: "Pièce d'identité contrôlée à l'entrée, à pied comme en voiture.\nPas de plantes en pot ni d'animaux ; fleurs coupées selon le service.",
   },
