@@ -30,7 +30,7 @@ window.BONJOUR_JG_CONFIG = {
 
   // Nombre minimum d'heures SANS visite à préserver chaque jour (0 = pas de limite).
   // Calculé sur les créneaux ci-dessus : les créneaux bloqués comptent comme du repos.
-  minRestHoursPerDay: 5,
+  minRestHoursPerDay: 3,
 
   // Motifs proposés pour bloquer un créneau.
   blockReasons: ["Repos", "Soins / examens", "Visite médicale", "Kiné", "Autre"],
