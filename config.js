@@ -30,7 +30,7 @@ window.BONJOUR_JG_CONFIG = {
 
   // Nombre minimum d'heures SANS visite à préserver chaque jour (0 = pas de limite).
   // Calculé sur les créneaux ci-dessus : les créneaux bloqués comptent comme du repos.
-  minRestHoursPerDay: 5,
+  minRestHoursPerDay: 0,
 
   // Motifs proposés pour bloquer un créneau.
   blockReasons: ["Repos", "Soins / examens", "Visite médicale", "Kiné", "Autre"],
@@ -41,8 +41,8 @@ window.BONJOUR_JG_CONFIG = {
     hospital: "Hôpital d'Instruction des Armées Percy",
     address: "2 rue du Lieutenant Raoul Batany, 92140 Clamart",
     service: "",
-    room: "318",
+    room: "318, Ascenseur bleu",
     hours: "Tous les jours de 13h à 20h",
-    notes: "Pièce d'identité contrôlée à l'entrée, à pied comme en voiture.\nParking intérieur souvent saturé : mieux vaut se garer à l'extérieur.\nPas de plantes en pot ni d'animaux ; fleurs coupées selon le service.",
+    notes: "Pièce d'identité contrôlée à l'entrée, à pied comme en voiture.\nPas de plantes en pot ni d'animaux ; fleurs coupées selon le service.",
   },
 };
